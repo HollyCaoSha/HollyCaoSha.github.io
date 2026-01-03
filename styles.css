@@ -18,6 +18,12 @@ body{
   line-height:1.55;
 }
 
+.panel:hover{
+  border-color: rgba(122,162,255,.35);
+  transform: translateY(-1px);
+  transition: transform .15s ease, border-color .15s ease;
+}
+
 a{color:var(--text); text-decoration:none}
 a:hover{opacity:.9; text-decoration:underline}
 
